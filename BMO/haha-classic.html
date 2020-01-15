@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Your life matters. Be yourself. BMO.">
+    <meta name="keywords" content="BMO, b&amp;w, music, classical music, background music, endless music, relax">
+    <meta name="author" content="TRCMKR made IT1!">
+    <title>BMØ</title>
+    <link href="not-shit-but-sheet.css" rel="stylesheet" type="text/css" >
+    <link href="fonts.css" rel="stylesheet" type="text/css">
+    <!-- <script src="LIBRARY\p5.js"></script>
+    <script src="LIBRARY\p5.sound.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+    <!-- <script src="audio.js"></script> -->
+</head>
+<body>  
+    <div id="MyClockDisplay" class="MyClockStyle"></div>
+      <script type="text/javascript">
+function showTime() {
+    var date = new Date(); 
+    var h = date.getHours();
+    var m = date.getMinutes();
+    var s = date.getSeconds();
+    var diem = "AM";
+
+    if (h == 0) {
+        h = 12;
+    } else if (h > 12) {
+        h = h -12;
+        diem = "PM";
+    }
+
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+
+    var time = document.getElementById("MyClockDisplay");
+    time.textContent = h + ":" + m + ":" + s + " " + diem;
+    setTimeout(showTime, 1000);
+}
+showTime();
+      </script>
+    <div class="start-trial shit" id="some-div" onclick="addBlinks()">Start</div>
+    <div class="shit" id="All-In">
+      <div class="question" onclick="fuckBlinks()">Dx yxu r3411y w4nn4 274r7?</div>
+        <div class="Answers" id="Yes" onclick="document.location='fuck.html'">Yes</div>
+        <div class="Answers" id="No">No</div>
+
+        <!-- <script type="text/javascript">
+
+            const text = baffle(".question, .Answers");
+            text.set({
+                  characters : '█▓█ ▒░/▒░ █░▒▓/ █▒▒ ▓▒▓/█ ░█▒/ ▒▓░ █<░▒ ▓/░>',
+                  speed: 120
+            });
+            text.start();
+            text.reveal(4000);
+      
+        </script> -->
+
+   <script src="delete-your-pc.js"></script>
+</body>
+</html>

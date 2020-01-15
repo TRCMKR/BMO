@@ -1,0 +1,145 @@
+body {
+    background-color: #000000;
+}
+
+.MyClockStyle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 3px;
+    cursor: default;
+}
+
+.start-trial {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #ffffff;
+    font-size: small;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: -15px -35px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: default;
+}    
+
+/* .start-trial {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+    font-size: x-small;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 20px -35px;
+    padding: 4px 10px; 
+    vertical-align: middle;
+    text-align: center;
+    animation: retrotv 4s ease-out infinite;
+    animation-delay: -1000s;
+} */
+
+
+.start-trial:hover {
+    animation-name: retrotv;
+    animation-duration: 0.75s;
+    animation-fill-mode: both;
+    color: #f10000;
+    cursor: pointer;
+    text-shadow: 6px -4px 1px rgb(190, 6, 6);
+}
+
+.question {
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ffffff;
+    font-size: 30px;
+    cursor: default;
+    animation: schizophrenia 0.1s ease-in-out infinite;
+}
+
+#Yes {
+    position: absolute;
+    left: 2%;
+    top: 92%;
+}
+
+#No {
+    position: absolute;
+    left: 95%;
+    top: 92%;   
+}
+
+.Answers {
+    color: #000000;
+    font-weight: 300;
+    font-size: 40px;
+    animation: schizophrenia 0.1s ease-in-out infinite;
+    cursor: default;
+}
+
+.Answers:hover {
+    color: #f10000;
+    cursor: pointer;
+    text-shadow: 0px 0px 40px #f10000;
+}
+
+p, h1, h2, pre {
+    color: #f10000;
+    text-shadow: -1px 2px 0px #f10000;
+}
+
+h1 {
+    position: absolute;
+    left: 45%;
+}
+
+h2 {
+    position: absolute;
+    left: 47%;
+    top: 10%;
+}
+
+pre {
+    position: absolute;
+    left: 30%;
+    top: 17%;
+    font-size: x-large;
+}
+/* @keyframes schizophrenia {
+    100% {
+      opacity: 0;
+      display: none;
+    }  
+} */
+
+/* @keyframes retrotv {
+        25% {
+          background: rgb(0, 0, 0);
+          text-shadow: 0px 0px 4px rgb(255, 255, 255), 0px 0px 2px #9f8db5, 2px -2px 2px #432355, -2px 2px 2px #a13b6d, 0px 2px 2px #773575;
+        }   
+} */
+
+#some-div {
+    opacity: 0;
+  }
+
+#All-In {
+    opacity: 0;
+}
+
+.shit {
+    display: none;
+}
